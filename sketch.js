@@ -15,7 +15,13 @@ function setup() {
 	rectMode(CENTER);
 	
 
-	//create helicopter, package with images and scale
+	packageSprite=createSprite(width/2, 80, 10,10);
+	packageSprite.addImage(packageIMG)
+	packageSprite.scale=0.2
+
+	helicopterSprite=createSprite(width/2, 200, 10,10);
+	helicopterSprite.addImage(helicopterIMG)
+	helicopterSprite.scale=0.6
 	
 	
 
